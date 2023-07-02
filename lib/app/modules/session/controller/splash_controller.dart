@@ -25,7 +25,7 @@ class SplashController extends GetxController {
         Timer(Duration(seconds: 2), onAccountNotValid);
       } else {
         print("onPageStart !!!");
-        // onPageStart();
+        onPageStart();
         // Get.toNamed(Routes.WELCOME);
       }
     }
